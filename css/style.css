@@ -107,6 +107,10 @@ nav {
   position: relative;
 }
 
+.description {
+  padding-top: 1rem;
+}
+
 .extra {
   position: absolute;
   left: 0;
@@ -164,4 +168,10 @@ nav {
 /* /MAIN */
 
 /* FOOTER */
+
+footer {
+  background-color: #1a1a1a;
+  height: 80px;
+}
+
 /* /FOOTER */
