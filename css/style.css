@@ -51,31 +51,69 @@ h4 {
   font-weight: 600;
   font-size: 0.8rem;
 }
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
 /* /Typography */
 
 /* HEADER */
 header {
   background-color: var(--header-bg);
   height: 80px;
+  width: 100%;
   padding: 1rem 0;
   margin-bottom: 2rem;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 1;
 }
+
 /* Nav */
 
 nav {
-  border: 1px solid black;
+  color: white;
 }
 
 .nav-container {
   justify-content: space-between;
+  align-items: center;
+  border: 1px dashed black;
 }
 
 .nav-col {
   width: calc(100% / 4);
+  border: 1px dashed black;
+}
+
+.logo-col {
+  text-align: center;
+  padding: 0.5rem 0;
+  vertical-align: middle;
+}
+
+.logo {
+  width: 50%;
+  justify-self: center;
+  border: 1px dashed black;
+}
+
+.type {
+  font-size: 0.8rem;
+  justify-content: space-around;
+  align-items: center;
+  border: 1px dashed black;
 }
 
 .social {
   justify-content: flex-end;
+  align-items: center;
+  gap: 0.8rem;
+  border: 1px dashed black;
 }
 
 /* /Nav */
@@ -83,7 +121,9 @@ nav {
 /* /HEADER */
 
 /* MAIN */
-
+main {
+  margin-top: 80px;
+}
 /* Grid */
 
 .grid {
