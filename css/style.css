@@ -9,9 +9,48 @@
   box-sizing: border-box;
 }
 
-/* HEADER */
+img {
+  max-width: 100%;
+}
 
+.center {
+  margin: 0 auto;
+}
+
+/* COMMON */
+
+.flex {
+  display: flex;
+}
+
+ul {
+  list-style: none;
+}
+
+/* HEADER */
+header {
+  background-color: var(--header-bg);
+  height: 80px;
+  padding: 1rem 0;
+}
 /* Nav */
+
+nav {
+  border: 1px solid black;
+}
+
+.nav-container {
+  justify-content: space-between;
+}
+
+.nav-col {
+  width: calc(100% / 4);
+}
+
+.social {
+  justify-content: flex-end;
+}
+
 /* /Nav */
 
 /* /HEADER */
