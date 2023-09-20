@@ -15,6 +15,7 @@ img {
 
 .center {
   margin: 0 auto;
+  width: 80%;
 }
 
 /* COMMON */
@@ -32,6 +33,7 @@ header {
   background-color: var(--header-bg);
   height: 80px;
   padding: 1rem 0;
+  margin-bottom: 2rem;
 }
 /* Nav */
 
@@ -58,6 +60,29 @@ nav {
 /* MAIN */
 
 /* Grid */
+
+.grid {
+  /* debug */
+
+  background-color: aqua;
+  padding: 3rem 0;
+}
+
+.row {
+  /* debug */
+  background-color: blueviolet;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+
+.card {
+  /* debug */
+  width: calc(90% / 3);
+  background-color: chartreuse;
+  height: 300px;
+}
+
 /* /Grid */
 
 /* /MAIN */
