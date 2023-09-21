@@ -48,7 +48,7 @@ h4 {
 }
 .old-price {
   text-decoration: line-through;
-  font-weight: 600;
+  font-weight: 500;
   font-size: 0.8rem;
 }
 
@@ -154,7 +154,7 @@ main {
   display: inline-block;
 
   color: #fff;
-  padding: 0.3em 0.5em;
+  padding: 0.3rem 0.5rem;
   font-size: 0.8rem;
   font-weight: 700;
 }
@@ -168,9 +168,17 @@ main {
 }
 
 .heart {
-  padding: 0.3em 0.5em;
+  /* Herat fisrt way */
+  /* padding: 0.3rem 0.5rem; */
+  /* font-size: 1.5rem; */
+  /* Heart second way */
+  height: 30px;
+  width: 30px;
+  line-height: 30px;
+  font-size: 20px;
+  text-align: center;
+
   background-color: #fff;
-  font-size: 1.5rem;
   position: absolute;
   top: 5px;
   right: 0;
