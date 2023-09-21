@@ -2,6 +2,7 @@
   --header-bg: #ff6900;
   --price: red;
   --label: #008000;
+  --header-height: 60px;
 }
 
 /* RESET */
@@ -61,7 +62,7 @@ a {
 /* HEADER */
 header {
   background-color: var(--header-bg);
-  /* height: 60px; */
+  height: var(--header-height);
   width: 100%;
   padding: 0.5rem 0;
   position: fixed;
@@ -74,11 +75,13 @@ header {
 
 nav {
   color: white;
+  height: 100%;
 }
 
 .nav-container {
   justify-content: space-between;
   align-items: center;
+  height: 100%;
 }
 
 .nav-col {
@@ -115,7 +118,7 @@ nav {
 
 /* MAIN */
 main {
-  margin-top: 80px;
+  margin-top: calc(var(--header-height) + 20px);
 }
 /* Grid */
 
