@@ -73,8 +73,6 @@ header {
 /* Nav */
 
 nav {
-  width: 90%;
-  margin: 0 auto;
   color: white;
 }
 
@@ -136,8 +134,8 @@ main {
 
 .card {
   /* debug */
-  width: calc(90% / 3);
   /* background-color: chartreuse; */
+  width: calc(90% / 3);
   position: relative;
   margin-bottom: 1rem;
 }
@@ -195,6 +193,7 @@ main {
 
 .img:hover .card-img-hidden {
   display: initial;
+  display: block;
 }
 
 /* /Grid */
