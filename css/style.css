@@ -82,7 +82,7 @@ nav {
 }
 
 .nav-col {
-  width: calc(100% / 4);
+  width: calc(90% / 3);
 }
 
 .logo-col {
@@ -98,8 +98,9 @@ nav {
 
 .type {
   font-size: 0.8rem;
-  justify-content: space-around;
+  justify-content: flex-start;
   align-items: center;
+  gap: 1rem;
 }
 
 .social {
@@ -127,7 +128,7 @@ main {
 .row {
   /* debug */
   /* background-color: blueviolet; */
-  justify-content: center;
+  justify-content: space-between;
   flex-wrap: wrap;
   gap: 1rem;
 }
@@ -192,7 +193,6 @@ main {
 }
 
 .img:hover .card-img-hidden {
-  display: initial;
   display: block;
 }
 
